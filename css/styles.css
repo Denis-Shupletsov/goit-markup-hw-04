@@ -120,12 +120,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    /* padding-top: 34px;
-    padding-bottom: 34px; */
     background-repeat: no-repeat;
     background-image: url(../img/Конверт\(header\).png);
     background-size: contain;
 }
+
 .tel::before {
     display: inline-block;
     content: "";
@@ -134,7 +133,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     margin-right: 10px;
     background-image: url(../img/Телефон\(header\).png);
     background-size:contain ;
-    
 }
 
 .info-nav .link:hover,
@@ -249,11 +247,24 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
 .section-title {
     margin-bottom: 10px;
+    
     color: var(--header-section-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+.attention::before {
+    margin-bottom: 30px;
+
+    height: 120px;
+    display: block;
+    content: "";
+    background-image: url(../img/antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--button-color);
+    border-radius: 4px;
 }
 
 .section-text {
