@@ -114,6 +114,29 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     letter-spacing: 0.02em;
 }
 
+.mail::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    /* padding-top: 34px;
+    padding-bottom: 34px; */
+    background-repeat: no-repeat;
+    background-image: url(../img/Конверт\(header\).png);
+    background-size: contain;
+}
+.tel::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../img/Телефон\(header\).png);
+    background-size:contain ;
+    
+}
+
 .info-nav .link:hover,
 .info-nav .link:focus {
     color: var(--focus-color);
