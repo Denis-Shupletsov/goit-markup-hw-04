@@ -259,55 +259,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
 .attention::before {
     margin-bottom: 30px;
-
-    height: 120px;
-    display: block;
-    content: "";
-    background-image: url(../img/antenna\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--button-color);
-    border-radius: 4px;
-}
-
-.punctuality::before {
-    margin-bottom: 30px;
-
-    height: 120px;
-    display: block;
-    content: "";
-    background-image: url(../img/clock\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--button-color);
-    border-radius: 4px;
-}
-
-.planning::before {
-    margin-bottom: 30px;
     
     height: 120px;
     display: block;
     content: "";
-    background-image: url(../img/diagram\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--button-color);
     border-radius: 4px;
 }
 
-.technology::before {
-    margin-bottom: 30px;
-    
-    height: 120px;
-    display: block;
-    content: "";
-    background-image: url(../img/astronaut1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--button-color);
-    border-radius: 4px;
-}
 
 .section-text {
     color: var(--section-subtitle-color);
