@@ -347,6 +347,23 @@ img {
     text-align: center;
 }
 
+.company {
+    display: flex;
+    gap: 30px;
+}
+
+.company .link {
+    display: block;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    /* outline: 2px solid green; */
+}
+
+.company .link:hover {
+    color: red
+}
+
 /* figure */
 .figure {
     display: flex;
