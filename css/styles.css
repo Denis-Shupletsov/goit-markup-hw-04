@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     height: 12px;
     margin-right: 10px;
     background-repeat: no-repeat;
-    background-image: url(../img/Конверт\(header\).png);
+    background-image: url(../img/IconSVG/mail.svg);
     background-size: contain;
 }
 
@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../img/Телефон\(header\).png);
+    background-image: url(../img/IconSVG/mobile.svg);
     background-size:contain ;
 }
 
@@ -258,19 +258,19 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     border-radius: 4px;
 }
 .attention::before {
-    background-image: url(../img/antenna\ 1.png);
+    background-image: url(../img/IconSVG/attention.svg);
 }
 
 .punctuality::before {
-    background-image: url(../img/clock\ 1.png);
+    background-image: url(../img/IconSVG/punctuality.svg);
 }
 
 .planning::before {
-    background-image: url(../img/diagram\ 1.png);
+    background-image: url(../img/IconSVG/planning.svg);
 }
 
 .technology::before {
-    background-image: url(../img/astronaut1.png);
+    background-image: url(../img/IconSVG/technology.svg);
 }
 
 .section-title {
@@ -346,7 +346,7 @@ img {
     line-height: 1.19;
     text-align: center;
 }
-
+/* section-company */
 .company {
     display: flex;
     gap: 30px;
@@ -357,11 +357,7 @@ img {
     padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    /* outline: 2px solid green; */
-}
-
-.company .link:hover {
-    color: red
+    outline: 2px solid green;
 }
 
 /* figure */
