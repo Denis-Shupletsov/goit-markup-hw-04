@@ -332,20 +332,20 @@ img {
 .network {
     display: flex;
     gap: 10px;
-    padding: 0px 32px 16px 32px;
+    margin: 0px 32px 16px 32px;
+    outline: 2px solid red;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    
+    color: #2196F3;
 }
-
 .socnetwork {
     width: 44px;
     height: 44px;
     
-    fill: none;
 }
 
-.socnetwork:hover {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
 /* section-company */
 .company {
     display: flex;
