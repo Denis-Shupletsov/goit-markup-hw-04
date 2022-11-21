@@ -340,15 +340,14 @@ img {
 
 .company .link {
     display: block;
-    padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
 }
 
-.company-icon {
-    width: 106px;
-    height: 60px;
+.link .company-icon {
+    width: 170px;
+    height: 92px;
     fill: currentColor;
 }
 
