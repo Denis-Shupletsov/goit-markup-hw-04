@@ -114,25 +114,22 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     letter-spacing: 0.02em;
 }
 
-.mail::before {
-    display: inline-block;
-    content: "";
+.info-nav-icon-mail {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-repeat: no-repeat;
-    background-image: url(../img/IconSVG/mail.svg);
-    background-size: contain;
+    fill: currentColor;
 }
 
-.tel::before {
-    display: inline-block;
-    content: "";
+.info-nav-icon-mail .info-nav-icon-mobile:hover {
+    fill: #2196F3;
+}
+
+.info-nav-icon-mobile {
     width: 10px;
     height: 16px;
+    fill: currentColor;
     margin-right: 10px;
-    background-image: url(../img/IconSVG/mobile.svg);
-    background-size:contain ;
 }
 
 .info-nav .link:hover,
