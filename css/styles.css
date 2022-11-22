@@ -434,6 +434,16 @@ img {
     padding: 60px 0px;
 }
 
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.container-footer {
+    text-align: center;
+    /* width: 100%; */
+}
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
@@ -478,20 +488,15 @@ img {
     color: var(--focus-color);
 }
 
-.footer-soc-icons {
-    display: inline-block;
-}
-.footer-soc {
-    display: flex;
-    gap: 10px;
-}
-
-.footer-text {
-    margin-left: 70px;
-
-    font-style: Bold;
+.footer-cos-title {
+    margin-bottom: 20px;
     font-size: 14px;
-    line-height: 1.14; 
-    
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #fff;
 }
 
+.footer-soc-icons {
+    margin-left: 70px;
+}
