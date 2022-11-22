@@ -496,24 +496,25 @@ img {
     width: 206px;
     height: 80px;
     margin-left: 70px;
-    list-style-type: none;
 }
 
 .footer-soc {
     display: flex;
-    justify-content: space-between;
-    
+    gap: 10px;
+    align-items: center;
 }
 
-
+.footer-soclink {
+    width: 44px;
+    height: 44px;
+    list-style-type: none;
+}
 
 .footer-icons-links {
-    outline: 2px solid red;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-    justify-content: center;
     align-items: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -524,14 +525,8 @@ img {
     color: #FFFFFF;
     background-color: #2196F3;
 }
-.footer-soclink {
-    width: 44px;
-    height: 44px;
-    list-style-type: none;
-}
 
 .footer-icons {
-    justify-content: center;
     fill: currentColor;
 }
 
