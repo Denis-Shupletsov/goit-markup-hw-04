@@ -477,3 +477,21 @@ img {
 .footer-nav .info-link:focus {
     color: var(--focus-color);
 }
+
+.footer-soc-icons {
+    display: inline-block;
+}
+.footer-soc {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-text {
+    margin-left: 70px;
+
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 1.14; 
+    
+}
+
