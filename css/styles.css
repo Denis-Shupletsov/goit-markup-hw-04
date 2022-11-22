@@ -372,35 +372,31 @@ img {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    /* outline: 2px solid green; */
+    
 }
 
 .company-items {
     width: 170px;
     height: 92px;
-    /* outline: 2px solid red; */
-    padding: 23px 65px;
-    border: #AFB1B8;
-    border-radius: 4px;
 }
 
 .company-link {
-    padding: 16px 32;
-    display: flex;
+    display: block;
+    /* padding: 23px 65px; */
     width: 100%;
     height: 100%;
-    background-color: var(--hero-filter-color);
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
     color: #AFB1B8;
-    /* outline: 1px solid red; */
 }
 
 .company-link:hover {
     color: #2196F3;
 }
 .company-icon {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 /* figure */
