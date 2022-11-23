@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 /* page-main-nav */
 .page-main-nav {
     display: flex;
+    align-items: center;
 }
 
 /* main-nav */
@@ -217,6 +218,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 .hero-filter .button-portfolio:hover {
     background-color: var(--focus-color);
     color: var(--main-text-color);
+    box-shadow: 0px 2px 2px 0px #0000001F;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001A;;
 }
 
 /* section */
@@ -382,11 +386,11 @@ img {
 
 .company-link {
     display: block;
-    /* padding: 23px 65px; */
+    padding: 23px 63px;
     width: 100%;
     height: 100%;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
@@ -394,6 +398,7 @@ img {
 
 .company-link:hover {
     color: #2196F3;
+    border-color: #2196F3;
 }
 .company-icon {
     fill: currentColor;
@@ -421,6 +426,13 @@ img {
     display: block;
     text-decoration: none;  
 }
+
+.figure-link:hover {
+    box-shadow: 1px 4px 6px 0px #00000029;
+    box-shadow: 0px 4px 4px 0px #0000000F;
+    box-shadow: 0px 1px 1px 0px #0000001F;
+}
+
 .figure-title {
     margin-bottom: 4px;
     color: var(--header-section-text-color);
