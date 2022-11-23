@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     padding: 0;
 }
 
-/* page-header */
+/* --------page-header-------- */
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -43,12 +43,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     align-items: center;
 }
 
-/* main-nav */
+/* ---------main-nav---------- */
 .main-nav {
     display: flex;
     align-items: center;
 }
-/* Logo */
+/* ---------Logo---------- */
 .logo {
     display: inline-block;
 
@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     color: var(--focus-color);
 }
 
-/* site-nav */
+/* ------------site-nav---------- */
 .site-nav {
     display: flex;
     margin-left: 93px;
@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     color: var(--focus-color);
 }
 
-/* info-nav */
+/* ------------info-nav---------- */
 .info-nav {
     display: flex;
     margin-left: auto;
@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 .info-nav .link:focus {
     color: var(--focus-color);
 }
-
+/* ---------Hero---------- -*/
 .hero {
     padding: 200px 0px;
     
@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     text-transform: uppercase;
 }
 
-/* button */
+/* ----------button----------- */
 .button {
     cursor: pointer;
 }
@@ -188,7 +188,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 .hero .button:focus {
     opacity: 0.9;
 }
-
+/* ------------Portfolio---------- */
 .hero-filter {
     padding: 94px 0px;
 }
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     box-shadow: 0px 3px 1px 0px #0000001A;;
 }
 
-/* section */
+/* ----------section---------- */
 .quality-teams {
     visibility: hidden;
     position: absolute;
@@ -282,7 +282,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     line-height: 1.17;
     text-align: center;
 }
-/* page */
+/* -------------page ------------*/
 .page {
     display: flex;
     gap: 30px;
@@ -294,7 +294,7 @@ img {
     height: auto;
 }
 
-/* section-team */
+/* ----------section-team--------- */
 .section-team {
     background-color: #F5F4FA;
     padding: 94px 0px;
@@ -331,7 +331,7 @@ img {
     line-height: 1.19;
     text-align: center;
 }
-/* soc-icons */
+/* ----------soc-icons---------- */
 
 .soc-icons {
     display: flex;
@@ -369,7 +369,7 @@ img {
     fill: currentColor;
 }
 
-/* section-company */
+/* ----------section-company ------------*/
 .company {
     display: flex;
     gap: 30px;
@@ -404,7 +404,7 @@ img {
     fill: currentColor;
 }
 
-/* figure */
+/* ----------figure---------- */
 .figure {
     display: flex;
     flex-wrap: wrap;
@@ -450,7 +450,7 @@ img {
 }
 
 
-/* footer */
+/* ----------footer--------- */
 .page-footer { 
     background-color: #2F303A;
     padding: 60px 0px;
@@ -541,7 +541,7 @@ img {
     align-items: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #AFB1B8;
+    color: var(--main-text-color);
 }
 
 .footer-icons-links:hover {
