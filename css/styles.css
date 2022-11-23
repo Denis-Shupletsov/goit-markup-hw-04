@@ -246,10 +246,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     display: block;
 }
 
-.icon-group {
-    margin-bottom: 30px;
-    width: 270px;   
+.quality-icon-group {
+    display: flex;
+    width: 270px;
     height: 120px;
+    margin-bottom: 30px;
 }
 
 .section-title {
