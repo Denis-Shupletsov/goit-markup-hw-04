@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 .info-nav .link:focus {
     color: var(--focus-color);
 }
-/* ---------Hero---------- -*/
+/* ---------Hero-Команди якості--------- -*/
 .hero {
     padding: 200px 0px;
     text-align: center;
@@ -145,7 +145,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     background-position: center;
 }
 
-
+/* ----------ВАГА ДО ДЕТАЛЕЙ------ */
 .hero-title {
     width: 696px;
     margin: 0px auto 30px;
@@ -218,7 +218,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     box-shadow: 0px 3px 1px 0px #0000001A;
 }
 
-/* ----------section---------- */
+/* ----------section-quality---------- */
 .quality-teams {
     visibility: hidden;
     position: absolute;
@@ -281,7 +281,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     line-height: 1.17;
     text-align: center;
 }
-/* -------------page ------------*/
+/* -------------page-works Чим ми займаємося------------*/
 .page {
     display: flex;
     gap: 30px;
@@ -293,7 +293,7 @@ img {
     height: auto;
 }
 
-/* ----------section-team--------- */
+/* ----------section-team--Наша команда------- */
 .section-team {
     background-color: #F5F4FA;
     padding: 94px 0px;
@@ -365,7 +365,7 @@ img {
     fill: currentColor;
 }
 
-/* ----------section-company ------------*/
+/* ----------section-company-Постоянные клиенты ------------*/
 .company {
     display: flex;
     gap: 30px;
@@ -395,7 +395,7 @@ img {
     fill: currentColor;
 }
 
-/* ----------figure---------- */
+/* ----------figure-products-Портфолио-------- */
 .figure {
     display: flex;
     flex-wrap: wrap;
@@ -407,15 +407,38 @@ img {
     box-sizing: border-box;
 }
 
+.figure-link {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.figure-link-website:hover::before {
+    opacity: 1;
+}
+
+.figure-link-website::before {
+    display: inline-block;
+    content: "";
+    width: 370px;
+    height: 294px;
+    background-color: rgba(33, 150, 243, 0.9);
+    position: absolute;
+
+    opacity: 0;
+}
+
+.website {
+    position: absolute;
+    width: 322px;
+    height: 168px;
+    
+}
+
 .elements-products {
     padding: 20px 24px;
     border:  1px solid #EEEEEE;
     border-top: none;
-}
-
-.figure-link {
-    display: block;
-    text-decoration: none;  
 }
 
 .figure-link:hover {
@@ -493,7 +516,7 @@ img {
 .footer-nav .info-link:focus {
     color: var(--focus-color);
 }
-
+/* ----footer-soc-icons--ПРИЄДНУЙТЕСЬ-- */
 .footer-soc-title {
     margin-bottom: 20px;
     font-size: 14px;
